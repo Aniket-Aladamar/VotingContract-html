@@ -4,11 +4,11 @@ const fs = require("fs-extra");
 
 async function main() {
     const provider = new ethers.JsonRpcProvider(
-      "https://eth-sepolia.g.alchemy.com/v2/ggUgkm3q-962HDbgpAYUQeMYV-K78dwM"
+      "https://eth-sepolia.g.alchemy.com/v2/Your API KEY"
     );
 
     const wallet = new ethers.Wallet(
-      "1c3adf05d42ee180b1e9751aabc7402b9f59819b0dc14cf63028960fbd86270a",
+      "",
       provider
     );
 
