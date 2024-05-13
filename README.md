@@ -15,19 +15,19 @@ This project is a decentralized voting application (DApp) built on blockchain te
 2. **Integration with the Contract:** Describes the integration of the smart contract with a user-friendly front end, enabling seamless interaction for users to cast votes and monitor results.
 
 ## Installation
-- Clone the repository:
+1. Clone the repository:
 https://github.com/Aniket-Aladamar/VotingContract-html
 
-- Install dependencies:
-cd decentralized-voting-app
-npm install
-yarn
-corepack enable 
-yarn add solc@0.8.7-fixed
-yarn add ethers yarn add fs
+2. Install dependencies:
+-cd decentralized-voting-app
+- npm install
+- yarn
+- corepack enable 
+- yarn add solc@0.8.7-fixed
+- yarn add ethers yarn add fs
 
-- Deploy the contract:
-  yarn solcjs --abi --bin --include-path ./node_modules --base-path . -o ./output-directory ./voting.sol
+3 Deploy the contract:
+  - yarn solcjs --abi --bin --include-path ./node_modules --base-path . -o ./output-directory ./voting.sol
 
 
 ## Usage
