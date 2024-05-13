@@ -12,7 +12,7 @@ This project is a decentralized voting application (DApp) built on blockchain te
 
 ## Chapters
 1. **Developing a Smart Contract:** Details the process of developing the smart contract, including initialization with candidate names and a voting duration, and functions to manage the voting process.
-2. **Integration with the Contract:** Describes the integration of the smart contract with a user-friendly front end, enabling seamless interaction for users to cast votes and monitor results.
+2. **Integration with the Contract:** Describes the integration of the smart contract with a user-friendly front end, enabling seamless interaction for users to cast, monitor and display the votes .
 
 ## Installation
 1. Clone the repository:
